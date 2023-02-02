@@ -65,14 +65,14 @@ if __name__ == '__main__':
     #
     # print(f'Your score is {int(right/total * 100)}. ')
 
-    print("============== These answers are correct =================")
-    for j, q in enumerate(correctList):
-        print(q[0], q[1], q[2], '=', q[3], u'\u2713')
-
-    print("============== These answers are wrong ===================")
-    for j, q in enumerate(errlist):
-        print(q[0], q[1], q[2], '=', q[3], u'\u2717')
-
-    print('*******************************************')
+    # print("============== These answers are correct =================")
+    # for j, q in enumerate(correctList):
+    #     print(q[0], q[1], q[2], '=', q[3], u'\u2713')
+    #
+    # print("============== These answers are wrong ===================")
+    # for j, q in enumerate(errlist):
+    #     print(q[0], q[1], q[2], '=', q[3], u'\u2717')
+    #
+    # print('*******************************************')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
